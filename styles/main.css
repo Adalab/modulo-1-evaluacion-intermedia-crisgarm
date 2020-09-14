@@ -1,4 +1,4 @@
-/* reset */
+/* RESET */
 * {
   margin: 0;
   box-sizing: border-box;
@@ -23,6 +23,7 @@
   width: 155px;
   padding-top: 10px;
 }
+
 .container-menu {
   width: 100%;
 }
@@ -33,6 +34,7 @@
   justify-content: center;
   padding: 10px 20px 13px 0;
 }
+
 .link {
   font-family: "Rubik", sans-serif;
   color: #4a4a4a;
@@ -49,10 +51,12 @@
   justify-content: center;
   align-items: center;
 }
+
 .title {
   color: white;
   font-size: 30px;
 }
+
 .title-1 {
   display: block;
   text-align: center;
@@ -68,13 +72,16 @@
     flex-direction: row;
     align-items: center;
   }
+
   .logo {
     padding: 20px 0 20px 30px;
   }
+
   .menu {
     justify-content: flex-end;
     padding: 0 30px 0 0;
   }
+
   /* MAIN */
 
   .title {
