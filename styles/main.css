@@ -1,0 +1,15 @@
+/* reset */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: red;
+  width: 100%;
+}
+
+.main {
+  background-color: green;
+  height: 100vh;
+}
