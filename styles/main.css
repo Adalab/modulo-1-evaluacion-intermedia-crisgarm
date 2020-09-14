@@ -57,3 +57,27 @@
   display: block;
   text-align: center;
 }
+
+/* MEDIAQUERIES */
+
+@media all and (min-width: 768px) {
+  /* HEADER */
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .logo {
+    padding: 20px 0 20px 30px;
+  }
+  .menu {
+    justify-content: flex-end;
+    padding: 0 30px 0 0;
+  }
+  /* MAIN */
+
+  .title {
+    font-size: 40px;
+  }
+}
