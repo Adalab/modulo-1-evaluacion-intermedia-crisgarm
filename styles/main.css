@@ -4,6 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
+  font-family: "Rubik", sans-serif;
 }
 
 /* HEADER */
@@ -32,21 +33,21 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 10px 20px 13px 0;
+  padding-left: 20px;
+  padding-bottom: 13px;
 }
 
 .link {
-  font-family: "Rubik", sans-serif;
   color: #4a4a4a;
   font-size: 16px;
-  padding-left: 20px;
+  padding: 10px 20px 13px 0px;
+  text-transform: uppercase;
 }
 /* MAIN */
 
 .main {
   background-color: #3cdbc0;
   height: 100vh;
-  font-family: "Rubik", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,6 +61,7 @@
 .title-1 {
   display: block;
   text-align: center;
+  text-transform: capitalize;
 }
 
 /* MEDIAQUERIES */
@@ -68,9 +70,7 @@
   /* HEADER */
 
   .header {
-    display: flex;
     flex-direction: row;
-    align-items: center;
   }
 
   .logo {
